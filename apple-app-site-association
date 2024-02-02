@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "F43947BM22.Carafe-Studios.Affixation-IoS",
+        "paths": ["/match/*"]
+      }
+    ]
+  }
+}
