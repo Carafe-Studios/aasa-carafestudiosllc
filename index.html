@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5;url=https://apps.apple.com/us/app/toggle-the-game/id6461164759">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toggle The Game</title>
+    <script>
+        if (/android/i.test(navigator.userAgent)) {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.carafestudios.toggle";
+        } else {
+            window.location.href = "https://apps.apple.com/us/app/toggle-the-game/id6461164759";
+        }
+    </script>
 </head>
 <body>
     <h1>Welcome to Toggle The Game!</h1>
-    <p>If you are not redirected to the App Store to get the app, <a href="https://apps.apple.com/us/app/toggle-the-game/id6461164759">click here</a>.</p>
+    <p>If you are not redirected, <a id="store-link" href="https://apps.apple.com/us/app/toggle-the-game/id6461164759">click here</a>.</p>
+    <script>
+        if (/android/i.test(navigator.userAgent)) {
+            document.getElementById("store-link").href = "https://play.google.com/store/apps/details?id=com.carafestudios.toggle";
+        }
+    </script>
 </body>
 </html>
