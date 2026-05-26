@@ -4,7 +4,8 @@
     "namespace": "android_app",
     "package_name": "com.carafestudios.toggle",
     "sha256_cert_fingerprints": [
-      "64:6F:EF:76:45:7A:BE:00:E3:68:5F:05:5F:7E:1E:FE:FD:DE:8B:D8:5A:93:B0:56:FE:ED:C6:75:B2:E3:92:7C"
+      "64:6F:EF:76:45:7A:BE:00:E3:68:5F:05:5F:7E:1E:FE:FD:DE:8B:D8:5A:93:B0:56:FE:ED:C6:75:B2:E3:92:7C",
+      "2E:CC:FC:9E:86:E4:AC:2C:60:BA:21:F3:79:FE:1C:DB:70:A1:2D:AA:F7:80:70:77:7C:E6:AC:4A:93:C6:39:A1"
     ]
   }
 }]
